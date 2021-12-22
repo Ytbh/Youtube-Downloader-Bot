@@ -8,8 +8,10 @@ async def start(client, message):
         [InlineKeyboardButton("Channel", url="https://t.me/aryan_bots")],
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/aryanvikash")]
-        [InlineKeyboardButton("Support me", url="https://saweria.co/Xdf54)]
-         [InlineKeyboardButton("Owner bot",url="https://t.me/YugoslavBoy")]
+        [InlineKeyboardButton(
+            "Support me", url="https://saweria.co/Xdf54")]
+         [InlineKeyboardButton(
+             "Owner bot", url="https://t.me/YugoslavBoy")]
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
     await message.reply_text(welcomed, reply_markup=joinButton)
